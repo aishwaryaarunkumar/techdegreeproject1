@@ -21,7 +21,6 @@ def start_game():
     highscore = sys.maxsize
     attempts = 0
     random_number = intialize_variables() 
-    print(random_number)
     answer = True
     while answer:
           
@@ -49,7 +48,6 @@ def start_game():
                 if answer:
                     attempts = 0
                     random_number = intialize_variables()
-                    print(random_number)
         
         except ValueError:
             
